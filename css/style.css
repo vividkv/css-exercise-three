@@ -1,21 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #333;
+  background-color: #FFF;
   font-family: sans-serif;
   font-size: 10px;
+  box-sizing: border-box;
 }
+
+nav {
+  background-color: black;
+  width: 420px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
+  position: fixed;
+}
+
+h1{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: .75rem;
+  font-weight: normal;
+}
+
+/** restaurant list section **/
+
 
 .container {
   margin: 0 auto;
   width: 420px;
 }
 
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
+.arrow {
+  width: 9%;
+  padding:.5rem;
+}
+
+.content {
+  width: 91%;
+}
+
+.location {
+  border-bottom: 1px solid #3b3a3b;
+  display: flex;
+  padding: 1.2rem 0 1.2rem 1.2rem;
+  line-height: 1.2rem;
+}
+
+.location:hover {
+  background-color: #ABA9AB;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width: 420px;
+  background-color: #FFF;
 }
